@@ -2,11 +2,6 @@
   command = "npm run build"
   publish = "dist"
 
-[build.environment]
-  # Empêche Netlify d'auto-détecter et charger le plugin Next.js
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
-  NODE_VERSION = "20"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
