@@ -56,10 +56,30 @@ export const produits = [
       { titre: "Paiement de votre commission", description: "Versé après validation du Cofrac.", duree: "~2 sem" },
     ],
     documents: [
-      { nom: "Présentation commerciale", description: "Slides de présentation pour votre prospect", type: "slides", url: "#" },
-      { nom: "Fiche technique RUIWANG RWDD-240L", description: "Caractéristiques techniques du déshumidificateur", type: "pdf", url: "#" },
-      { nom: "FAQ apporteur", description: "Réponses aux questions fréquentes", type: "pdf", url: "#" },
-      { nom: "Fiche CEE AGRI-TH-117", description: "Fiche officielle ADEME", type: "pdf", url: "#" },
+      {
+        nom: "Cahier des charges",
+        description: "Cahier des charges officiel déshumidificateur",
+        type: "pdf",
+        url: "https://drive.google.com/file/d/1HvfQ0nZTTKWnDFkuYb46GE9oSfqntxxQ/view?usp=drive_link",
+      },
+      {
+        nom: "Fiche d'information",
+        description: "Fiche d'information client",
+        type: "pdf",
+        url: "https://drive.google.com/file/d/14syf0XJafFcDseRDvRxzmxqiffjwv9Oh/view?usp=drive_link",
+      },
+      {
+        nom: "Présentation commerciale",
+        description: "Slides de présentation pour votre prospect",
+        type: "slides",
+        url: "https://drive.google.com/file/d/1tx43MyWbAx0X8tuw5ZteLzhy2k47icBv/view?usp=drive_link",
+      },
+      {
+        nom: "Fiche technique",
+        description: "Caractéristiques techniques détaillées",
+        type: "pdf",
+        url: "https://drive.google.com/file/d/1pnbuiH4uv7Iol0Hp5gVV6DDZ0MVq3gTD/view?usp=drive_link",
+      },
     ],
     exempleDossier: {
       contexte: "Serre maraîchère chapelle — Sénas (13)",
